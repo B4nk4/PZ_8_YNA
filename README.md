@@ -1,8 +1,33 @@
 # PZ_8_YNA
-<img width="1919" height="858" alt="Снимок экрана 2026-03-19 112821" src="https://github.com/user-attachments/assets/1e40abb6-9107-4005-869f-03eeb2c9a62f" />
 
 
-<img width="1641" height="946" alt="Снимок экрана 2026-03-19 114324" src="https://github.com/user-attachments/assets/f82419a6-689a-4d66-8ad3-4f6e0355ac80" />
+## Задание 1
+```
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Настройка корректного отображения русского языка в консоли
+    setlocale(LC_ALL, "Russian");
+
+    int number; // Объявляем переменную для хранения числа
+    cin >> number; // Считываем число с клавиатуры
+
+    // Ваш код:
+    if (number > 0)
+    {
+        cout << "Положительное";
+    }
+
+
+    return 0;
+}
+```
+
+
+## Задание 2
+
 
 
 
