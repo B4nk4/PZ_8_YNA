@@ -27,29 +27,143 @@ int main() {
 
 
 ## Задание 2
+```
+#include <iostream>
+
+using namespace std;
+int main() {
+    int number; // Объявляем переменную для хранения числа
+    cin >> number; // Считываем число с клавиатуры
+
+    // Ваш код:
+    if (number == 10)
+    {
+        cout << "Число равно 10";
+    }
+    else 
+        cout << "Число не равно 10";
+
+
+    return 0; // Завершаем программу
+}
+```
+
+
+## Задание 3
+```
+#include <iostream>
+
+using namespace std;
+int main() {
+    int number;
+    cin >> number;
+
+    // Ваш код
+    if (number >= 0)
+        cout << "Число не отрицательное";
+    else
+        cout << "Число отрицательное";
 
 
 
-
-<img width="1647" height="947" alt="Снимок экрана 2026-03-19 114407" src="https://github.com/user-attachments/assets/a451e620-6678-4b9b-965c-dfeeb6456180" />
-
-
-
-<img width="1642" height="936" alt="Снимок экрана 2026-03-19 114358" src="https://github.com/user-attachments/assets/a84d7f0c-b0b2-44d3-8692-123f2225442c" />
+    return 0;
+}
+```
 
 
 
-<img width="1621" height="937" alt="Снимок экрана 2026-03-19 114345" src="https://github.com/user-attachments/assets/1b03dfc6-5a07-426d-9201-aeba18825770" />
+## Задание 4
+```
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a, b; // Объявляем две переменные
+    cin >> a >> b; // Считываем два числа сразу
+    if (a > b)
+    
+        cout << "Большее число: " << a; 
+    
+    else if (b > a)
+    
+        cout << "Большее число: " << b;
+    
+    else
+        cout << "Числа равны";
+    // Ваш код:
 
 
 
-<img width="1638" height="947" alt="Снимок экрана 2026-03-19 114338" src="https://github.com/user-attachments/assets/4f09e4a1-a2a5-42b5-ad40-00ac6beefda6" />
+    return 0;
+}
+```
 
 
 
-<img width="1627" height="934" alt="Снимок экрана 2026-03-19 114417" src="https://github.com/user-attachments/assets/3441753b-b702-481a-ba2b-42936af0695a" />
+## Задание 5
+```
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int number;
+    cin >> number;
+
+    // Ваш код:
+    if (1 <= number && number <= 10)
+        cout << "Число принадлежит диапазону";
+    else
+        cout << "Число не принадлежит диапазону";
 
 
-<img width="1635" height="938" alt="Снимок экрана 2026-03-19 114423" src="https://github.com/user-attachments/assets/4012972a-debf-40d2-a512-1a0a624c35b9" />
+    return 0;
+}
+```
+
+
+## Задание 6
+```
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int number;
+    cin >> number;
+
+    // Ваш код:
+    if (1 <= number && number <= 5)
+        cout << "Число принадлежит одному из диапазонов";
+    else if (10 <= number && number <= 15)
+        cout << "Число принадлежит одному из диапазонов";
+    else
+        cout << "Число не принадлежит указанным диапазонам";
+
+
+    return 0;
+}
+```
+
+
+## Задание 7
+```
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int number;
+    cin >> number;
+
+    // Ваш код:
+    if (number < 100 && number % 2 == 0 && number >=0)
+        cout <<"Подходит";
+
+    return 0;
+}
+```
+
 
 
