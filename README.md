@@ -1,5 +1,7 @@
 # PZ_8_YNA
 
+<img width="1171" height="386" alt="image" src="https://github.com/user-attachments/assets/2d0db733-b9a8-4d82-b605-f18ac98dfe40" />
+
 
 ## Задание 1
 ```
